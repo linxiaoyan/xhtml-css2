@@ -1,0 +1,91 @@
+body,ul,li,div,p,img,h1,h2,input {padding:0; margin:0;}
+ul {list-style:none;}
+a, a:hover {text-decoration:none;}
+input {outline:none;}
+body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
+
+.clear {zoom:1;}
+.clear:after {content:''; display:block; clear:both;}
+
+#top {width:960px; height:30px; margin:0 auto;}
+.top-menu {float:left;}
+.top-menu li {
+  float:left;
+  padding-right:18px; margin-right:15px;
+  font-size:13px; line-height:30px;
+  background:url("../img/top_dot.png") no-repeat right 14px;
+}
+.top-menu li.last {margin:0; padding:0; background:none;}
+.top-menu a {color:#c0c0c0;}
+.top-menu a:hover {color:#fff;}
+
+.top-bar {float:right;}
+.top-bar li {float:left; font-size:13px; line-height:30px; color:#fff;}
+.top-bar a {color:#fff;}
+.top-bar .phone {padding-left:27px; margin-right:36px; background:url("../img/phone.png") no-repeat left 4px;}
+.top-bar .help {padding-left:40px; margin-right:36px; background:url("../img/help.png") no-repeat left 4px;}
+.top-bar .flag {margin-right:14px; margin-top:10px; line-height:0;}
+
+#header {position:relative; width:960px; height:100px; margin:0 auto; background:url("../img/header_bg.png") no-repeat;}
+#shopping {position:relative; width:260px; height:100px; background:url("../img/bag.png") no-repeat left;}
+#shopping p {padding:30px 0 0 86px; font-size:20px; color:#f7f7f7;}
+#shopping a {
+  display:block; position:absolute; left:104px; bottom:15px;
+  width:114px; height:23px;
+  font-size:15px; text-align:center; line-height:23px; color:#ffc200;
+  background:url("../img/check.png") no-repeat;
+}
+#header h1 {position:absolute; width:238px; height:100px; left:50%; top:0; margin-left:-119px;}
+#search {position:absolute; top:34px; right:0; width:292px; height:31px; background:url("../img/search.png") no-repeat;}
+#search .search-text {
+  position:absolute; left:20px;
+  width:230px; height:30px;
+  line-height:30px; font-size:13px; color:#666;
+  background:none; border:none;
+}
+#search .search-btn {position:absolute; right:0; width:32px; height:30px; background:none; border:none;}
+
+#nav {width:960px; height:36px; margin:0 auto; padding-top:8px;}
+#nav li {float:left; height:28px; margin-right:2px; cursor:pointer;}
+#nav a {float:left; height:28px; line-height:28px; font-size:15px; color:#fff;}
+#nav strong {float:left; height:28px; font-weight:normal;}
+#nav span {float:left; height:28px; padding:0 16px;}
+#nav a:hover, #nav .active a {background:url("../img/nav_active_bg.png") repeat-x 0 -56px;}
+#nav a:hover strong, #nav .active strong {background:url("../img/nav_active_bg.png") no-repeat;}
+#nav a:hover span, #nav .active span {background:url("../img/nav_active_bg.png") no-repeat right -28px;}
+
+#content {width:1000px; margin:24px auto 20px; background:url(../img/content_bg.png) repeat-y -1000px 0;}
+#content_top {width:1000px; background:url(../img/content_bg.png) no-repeat; }
+#content_bottom {width:1000px; background:url(../img/content_bg.png) no-repeat -2000px bottom; padding-top:10px;}
+
+#ad {position:relative; width:940px; height:300px; margin:0 auto;}
+#ad ul {position:absolute; left:0; top:0;}
+#ad li {position:absolute; left:0; top:0;}
+#ad_bottom {position:absolute; left:0; bottom:0; width:940px; height:52px; filter:alpha(opacity:80); opacity:0.8; background:#000;}
+#ad_bottom h2 {position:absolute; padding:0 36px; line-height:52px; font-size:25px; color:#ffc600;}
+#ad_bottom p {position:absolute; width:628px; right:42px; padding:10px 0; line-height:16px; font-size:13px; color:#ffcccc;}
+
+#main {width:940px; margin:0 auto; padding-top:30px;}
+#side {float:left; width:210px;}
+#wrap {float:right; width:706px;}
+
+#module_menu {margin-bottom:12px;}
+#module_menu h2 {
+  height:29px; margin-bottom:1px;
+  line-height:28px; text-align:center; font-size:15px; color:#fff;
+  background:url(../img/module_menu_bg.png) repeat-x 0 -58px;
+}
+#module_menu h2 strong {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat; }
+#module_menu h2 span {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat right -29px; }
+
+.list {background:url(../img/list_bg.png) repeat-y; }
+.list ul {background:url(../img/list_bg.png) no-repeat -210px bottom; padding:18px 8px 15px;}
+.list a {
+  display:block;
+  height:27px; padding-left:32px;
+  line-height:27px; font-weight:bold; font-size:12px; color:#434343;
+  border-bottom:1px solid #fff;}
+.list a:hover {color:#b20e00; border-bottom:1px solid #b20e00; background:#fae191;}
+
+
+
