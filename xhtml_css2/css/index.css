@@ -54,9 +54,9 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 #nav a:hover strong, #nav .active strong {background:url("../img/nav_active_bg.png") no-repeat;}
 #nav a:hover span, #nav .active span {background:url("../img/nav_active_bg.png") no-repeat right -28px;}
 
-#content {width:1000px; margin:24px auto 20px; background:url(../img/content_bg.png) repeat-y -1000px 0;}
-#content_top {width:1000px; background:url(../img/content_bg.png) no-repeat; }
-#content_bottom {width:1000px; background:url(../img/content_bg.png) no-repeat -2000px bottom; padding-top:10px;}
+.content {width:1000px; margin:24px auto 20px; background:url(../img/content_bg.png) repeat-y -1000px 0;}
+.content-top {width:1000px; background:url(../img/content_bg.png) no-repeat; }
+.content-bottom {width:1000px; background:url(../img/content_bg.png) no-repeat -2000px bottom; padding-top:10px;}
 
 #ad {position:relative; width:940px; height:300px; margin:0 auto;}
 #ad ul {position:absolute; left:0; top:0;}
@@ -69,23 +69,38 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 #side {float:left; width:210px;}
 #wrap {float:right; width:706px;}
 
-#module_menu {margin-bottom:12px;}
-#module_menu h2 {
+.module-menu {margin-bottom:14px;}
+.module-menu h2 {
   height:29px; margin-bottom:1px;
   line-height:28px; text-align:center; font-size:15px; color:#fff;
   background:url(../img/module_menu_bg.png) repeat-x 0 -58px;
 }
-#module_menu h2 strong {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat; }
-#module_menu h2 span {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat right -29px; }
+.module-menu h2 strong {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat; }
+.module-menu h2 span {display:block; height:29px; background:url(../img/module_menu_bg.png) no-repeat right -29px; }
 
-.list {background:url(../img/list_bg.png) repeat-y; }
-.list ul {background:url(../img/list_bg.png) no-repeat -210px bottom; padding:18px 8px 15px;}
-.list a {
+.module-menu .list {background:url(../img/list_bg.png) repeat-y; }
+.module-menu .list ul {background:url(../img/list_bg.png) no-repeat -210px bottom; padding:18px 8px 15px;}
+.module-menu .list a {
   display:block;
   height:27px; padding-left:32px;
   line-height:27px; font-weight:bold; font-size:12px; color:#434343;
   border-bottom:1px solid #fff;}
-.list a:hover {color:#b20e00; border-bottom:1px solid #b20e00; background:#fae191;}
+.module-menu .list a:hover {color:#b20e00; border-bottom:1px solid #b20e00; background:#fae191;}
 
+.module-join {width:210px; background:url("../img/module_join_bg.png") repeat-y -210px;}
+.module-join-top {background:url("../img/module_join_bg.png") no-repeat 0 top;}
+.module-join-bottom {background:url("../img/module_join_bg.png") no-repeat -420px bottom;}
 
-
+.join-form {width:180px; margin:0 auto 12px;}
+.join-form p {padding:16px 0 9px; font-size:15px; line-height:18px; color:#666;}
+.join-form .text {
+  width:175px; height:25px; margin-bottom:6px;
+  line-height:25px;
+  border:1px solid #fff; border-top:1px solid #9c9c9c; border-left:1px solid #c0c0c0; background:#fff;
+}
+.join-form .btn {
+  display:block;
+  width:88px; height:25px; margin:0 auto;
+  font-size:15px; line-height:25px; font-weight:bold; color:#fff;
+  border:none;
+}
