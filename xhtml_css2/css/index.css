@@ -92,7 +92,7 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 .module-join-bottom {background:url("../img/module_join_bg.png") no-repeat -420px bottom;}
 
 .join-form {width:180px; margin:0 auto 12px;}
-.join-form p {padding:16px 0 9px; font-size:15px; line-height:18px; color:#666;}
+.join-form p {padding:16px 0 13px; font-size:15px; line-height:18px; color:#666;}
 .join-form .text {
   width:175px; height:25px; margin-bottom:6px;
   line-height:25px;
@@ -102,5 +102,10 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
   display:block;
   width:88px; height:25px; margin:0 auto;
   font-size:15px; line-height:25px; font-weight:bold; color:#fff;
-  border:none;
+  border:none; background:url("../img/join_btn.png") no-repeat;
 }
+
+.join-list {width:194px; margin:0 auto; background:url("../img/join_logo.png") no-repeat 10px;}
+.join-list li {padding-left:62px; font-size:13px; color:#434343; border-top:1px solid #fff;}
+.join-list-1line {height:49px; line-height:49px;}
+.join-list-2line {height:39px; line-height:15px; padding-top:10px;}
