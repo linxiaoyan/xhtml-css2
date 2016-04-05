@@ -1,5 +1,5 @@
-body,ul,li,div,p,img,h1,h2,input {padding:0; margin:0;}
-ul {list-style:none;}
+body,ul,li,div,p,img,h1,h2,h3,input,dl,dd {padding:0; margin:0;}
+ul,li {list-style:none;}
 a, a:hover {text-decoration:none;}
 input {outline:none;}
 body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
@@ -111,3 +111,34 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 .join-list-2line {height:39px; line-height:15px; padding-top:10px;}
 
 #payment {width:182px; margin:33px auto 18px;}
+
+.sort {height:20px; line-height:19px;}
+.sort dl {float:left;}
+.sort dt {float:left; padding-right:2px; font-size:12px; font-weight:bold; color:#747474;}
+.sort dd {float:left; position:relative; width:109px; height:19px; margin-right:12px;}
+.sort h2 {width:107px; height:17px; font-size:12px; font-weight:normal; text-indent:5px; color:#747474; border:1px solid #ccc;}
+.sort a {z-index:2; position:absolute; top:0; left:90px; width:19px; height:19px; background:url("../img/sort_btn.png");}
+.sort ul {display:none; z-index:1; position:absolute; top:18px; left:0; width:108px; border:1px solid #ccc; background:#fff;}
+.sort li {font-size:12px; line-height:20px; text-indent:5px; cursor:pointer;}
+.sort .active {color:#fff; background:#099;}
+.sort p {float:right; font-size:12px; color:#747474;}
+.sort p strong {color:#999;}
+.sort p span {padding:0 5px;}
+.color_style {color:#b20e00;}
+
+.product-list {width:706px; overflow:hidden;}
+.product-list h2 {height:56px; line-height:62px; font-size:18px; color:#666; overflow:hidden;}
+.product-list ul {width:736px;}
+.product-list li {float:left; width:182px; height:200px;}
+.product-list a {display:block; width:154px; height:114px; margin-bottom:6px; border:1px solid #c6c6c6;}
+.product-list a:hover {border:1px solid #663;}
+.product-list h3 {line-height:16px; font-size:15px; color:#666;}
+.product-list p {line-height:16px; font-size:13px; color:#333;}
+.product-list span {color:#b20e00;}
+
+.page {text-align:center; border-bottom:1px solid #cdcdc8; padding-bottom:5px; font-size:12px;}
+.page a {display:inline-block; height:18px; padding:0 6px; line-height:18px; color:#b20e00; border:1px solid #ccc;}
+.page a:hover, .page .active {color:#fff; background:#b20e00;}
+.page span.page-break {line-height:18px; border:0; background:#fff;}
+.page input.page-text {width:30px; height:18px; line-height:18px; font-size:12px; border:1px solid #ccc;}
+
