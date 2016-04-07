@@ -32,7 +32,7 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 #shopping a {
   display:block; position:absolute; left:104px; bottom:15px;
   width:114px; height:23px;
-  font-size:15px; text-align:center; line-height:23px; color:#ffc200;
+  font-size:15px; font-weight:bold; color:#ffc200;  line-height:23px; text-align:center;
   background:url("../img/check.png") no-repeat;
 }
 #header h1 {position:absolute; width:238px; height:100px; left:50%; top:0; margin-left:-119px;}
@@ -127,7 +127,7 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 .color_style {color:#b20e00;}
 
 .product-list {width:706px; overflow:hidden;}
-.product-list h2 {height:56px; line-height:62px; font-size:18px; color:#666; overflow:hidden;}
+.product-list h2, #scroll_list h2 {height:56px; line-height:62px; font-size:18px; color:#666; overflow:hidden;}
 .product-list ul {width:736px;}
 .product-list li {float:left; width:182px; height:200px;}
 .product-list a {display:block; width:154px; height:114px; margin-bottom:6px; border:1px solid #c6c6c6;}
@@ -140,5 +140,19 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 .page a {display:inline-block; height:18px; padding:0 6px; line-height:18px; color:#b20e00; border:1px solid #ccc;}
 .page a:hover, .page .active {color:#fff; background:#b20e00;}
 .page span.page-break {line-height:18px; border:0; background:#fff;}
-.page input.page-text {width:30px; height:18px; line-height:18px; font-size:12px; border:1px solid #ccc;}
+.page input.page-text {width:30px; height:18px; line-height:18px; text-indent:5px; font-size:12px; border:1px solid #ccc;}
 
+#scroll_list {width:706px;}
+.scroll-wrap {height:196px; background:url("../img/scroll_bg.png") 0 -476px repeat-x;}
+.scroll-wrap-left {height:196px; background:url("../img/scroll_bg.png") left -84px no-repeat;}
+.scroll-wrap-right {position:relative; height:196px; background:url("../img/scroll_bg.png") right -280px no-repeat;}
+.prev, .next {position:absolute; top:70px; width:35px; height:42px; background:red;}
+.prev {left:0; background:url("../img/scroll_bg.png") no-repeat;}
+.next {right:0; background:url("../img/scroll_bg.png") right -42px no-repeat;}
+
+.list-wrap {width:621px; padding-top:32px; margin:0 auto;}
+.list-wrap li {float:left; width:145px; margin:0 30px;}
+.list-wrap img {border:1px solid #ccc;}
+.list-wrap p {padding-top:10px; font-size:12px; color:#660000; line-height:14px; text-align:center;}
+
+#footer {height:302px; background:url("../img/footer_bg.png") repeat-x;}
