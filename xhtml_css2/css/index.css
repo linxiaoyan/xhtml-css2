@@ -36,14 +36,14 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
   background:url("../img/check.png") no-repeat;
 }
 #header h1 {position:absolute; width:238px; height:100px; left:50%; top:0; margin-left:-119px;}
-#search {position:absolute; top:34px; right:0; width:292px; height:31px; background:url("../img/search.png") no-repeat;}
-#search .search-text {
+.search {position:absolute; top:34px; right:0; width:292px; height:31px; background:url("../img/search.png") no-repeat;}
+.search .text {
   position:absolute; left:20px;
   width:230px; height:30px;
   line-height:30px; font-size:13px; color:#666;
   background:none; border:none;
 }
-#search .search-btn {position:absolute; right:0; width:32px; height:30px; background:none; border:none;}
+.search .btn {position:absolute; right:0; width:32px; height:30px; background:none; border:none;}
 
 #nav {width:960px; height:36px; margin:0 auto; padding-top:8px;}
 #nav li {float:left; height:28px; margin-right:2px; cursor:pointer;}
@@ -156,3 +156,9 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 .list-wrap p {padding-top:10px; font-size:12px; color:#660000; line-height:14px; text-align:center;}
 
 #footer {height:302px; background:url("../img/footer_bg.png") repeat-x;}
+#footer_info {position:relative; width:960px; height:61px; margin:0 auto;}
+#footer_info p {float:left; height:61px; line-height:61px; font-size:14px; font-weight:bold; color:#cbcbcb;}
+#footer_info .icon1 {margin:0 27px 0 9px; text-indent:63px; background:url("../img/footer_icon.png") 0 0 no-repeat;}
+#footer_info .icon2 {margin-right:43px; text-indent:50px; background:url("../img/footer_icon.png") 0 -61px no-repeat;}
+#footer_info .search {position:absolute; top:15px; right:0;}
+
