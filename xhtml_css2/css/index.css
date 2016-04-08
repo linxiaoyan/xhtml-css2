@@ -162,3 +162,10 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 #footer_info .icon2 {margin-right:43px; text-indent:50px; background:url("../img/footer_icon.png") 0 -61px no-repeat;}
 #footer_info .search {position:absolute; top:15px; right:0;}
 
+#footer_link {width:960px; margin:0 auto;}
+#footer_link dt {height:74px; line-height:74px; font-size:15px; font-weight:bold; color:#fff;}
+#footer_link dl {float:left; margin-right:80px; line-height:20px;}
+#footer_link dl a {font-size:13px; color:#cfcfcf;}
+#footer_link dl span {color:#ffcc00;}
+#footer_link .pos1 {margin-left:22px;}
+#footer_link .pos2 {margin-right:0;}
