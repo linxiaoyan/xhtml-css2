@@ -64,6 +64,13 @@ body {font-family:arial; background:#fff url("../img/body_bg.png") repeat-x;}
 #ad_bottom {position:absolute; left:0; bottom:0; width:940px; height:52px; filter:alpha(opacity:80); opacity:0.8; background:#000;}
 #ad_bottom h2 {position:absolute; padding:0 36px; line-height:52px; font-size:25px; color:#ffc600;}
 #ad_bottom p {position:absolute; width:628px; right:42px; padding:10px 0; line-height:16px; font-size:13px; color:#ffcccc;}
+#ad .next, #ad .prev{display:block; z-index:10; position:absolute; top:50%; width:75px; height:150px; margin-top:-75px;}
+#ad .prev {left:0; background:url(../img/banner/prev.png);}
+#ad .next {right:0; background:url(../img/banner/next.png);}
+#ad .prev_bg, #ad .next_bg {position:absolute; top:0; z-index:9; width:470px; height:300px; filter:alpha(opacity:0); opacity:0;}
+#ad .prev_bg {left:0;}
+#ad .next_bg {right:0;}
+
 
 #main {width:940px; margin:0 auto; padding-top:30px;}
 #side {float:left; width:210px;}
